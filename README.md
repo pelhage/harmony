@@ -2,6 +2,11 @@
 
 A config-driven CLI tool for managing multiple local development projects. This tool allows you to define and run commands for different projects from a single configuration file.
 
+## Documentation
+
+For detailed documentation and guides, visit our documentation website:
+https://pelhage.github.io/harmony
+
 ## Features
 
 - Run multiple projects with predefined commands
