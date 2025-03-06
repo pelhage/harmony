@@ -1,0 +1,16 @@
+Please replace this file with a terminal-demo.gif file that shows a recording of your CLI tool in action.
+
+The GIF should:
+1. Show common commands and their outputs
+2. Be clear and readable
+3. Demonstrate the key features of your CLI
+4. Have a dark background to match the terminal styling
+5. Be sized appropriately (recommended dimensions: 800x500px)
+
+You can create a GIF using tools like:
+- ScreenToGif (Windows)
+- Gifox (Mac)
+- Peek (Linux)
+- Or online tools like Cloudapp or Gyazo
+
+Once you have your GIF, replace this file with terminal-demo.gif in the same location. 
