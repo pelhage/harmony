@@ -75,16 +75,15 @@ harmony list
 ### Start Specific Projects
 
 ```bash
+# Start specific projects
 harmony start space-rocket-api galaxy-dashboard
+
+# Start all available projects
+harmony start --all
+
+# Start projects in new terminal windows
+harmony start space-rocket-api --new-window
 ```
-
-### Open Terminal for Specific Projects
-
-```bash
-harmony open space-rocket-api alien-detector
-```
-
-This command opens a terminal window for each specified project without running any commands. It's useful when you want to manually run commands in the project's directory.
 
 ### Clean Up Processes Using Specific Ports
 
