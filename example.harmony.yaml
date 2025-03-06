@@ -1,0 +1,61 @@
+projects:
+  # Example project configuration
+  space-rocket-api:
+    # Root directory of the project (required)
+    # Supports ~ for home directory expansion
+    root: "~/projects/space-rocket/api"
+    
+    # List of commands to run for this project (required)
+    commands:
+      # Each command requires 'command' and 'workingDir'
+      - command: "npm install && npm run build"
+        # Working directory for this command
+        # Use "." for the project root or specify a relative/absolute path
+        workingDir: "."
+        # Optional description for the command
+        description: "Install dependencies and build the API"
+      
+      - command: "npm start"
+        workingDir: "."
+        description: "Launch the rocket API server"
+    
+    # Optional list of ports used by this project
+    # These can be used with the cleanup command
+    ports:
+      - 3000
+      - 3001
+
+  galaxy-dashboard:
+    root: "~/projects/space-rocket/dashboard"
+    commands:
+      - command: "yarn install && yarn dev"
+        workingDir: "."
+        description: "Start the mission control dashboard"
+    ports:
+      - 8080
+      - 8081
+
+  alien-detector:
+    root: "~/projects/space-rocket/detector"
+    commands:
+      - command: "./scan_for_aliens.sh"
+        workingDir: "."
+        description: "Start the alien detection system"
+    ports:
+      - 9000
+
+  quantum-database:
+    root: "~/projects/space-rocket/database"
+    commands:
+      - command: "docker-compose up -d"
+        workingDir: "."
+        description: "Start the quantum database"
+    ports:
+      - 5432
+      - 27017
+
+# Optional global configuration options
+cleanup:
+  # Whether to enable port cleanup functionality
+  # When true, allows the cleanup command to terminate processes using specified ports
+  ports: true 
