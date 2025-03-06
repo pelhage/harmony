@@ -78,7 +78,21 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
+        env:
+          NODE_ENV: production
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+      - name: Verify static assets
+        run: |
+          echo "Checking if static assets were copied to the out directory..."
+          ls -la ./out
+          if [ -d "./out/harmony" ]; then
+            echo "Checking harmony directory content..."
+            ls -la ./out/harmony
+          fi
+          if [ -d "./public" ]; then
+            echo "Checking if public directory exists and its content..."
+            ls -la ./public
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
