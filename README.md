@@ -49,7 +49,7 @@ projects:
     commands:
       - command: "yarn install && yarn dev"
         workingDir: "."
-        description: "Start the mission control dashboard"
+        description: "Start the dashboard application"
 
   alien-detector:
     root: "~/projects/space-rocket/detector"

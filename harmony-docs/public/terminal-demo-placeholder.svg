@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0f0f0f"/>
+  
+  <!-- Left-aligned terminal content with proper padding -->
+  <text x="40" y="60" font-family="monospace" font-size="16" fill="#6366f1" text-anchor="start">harmony:/ $</text>
+  <text x="40" y="100" font-family="monospace" font-size="16" fill="#e2e2e2" text-anchor="start">harmony list</text>
+  
+  <text x="40" y="150" font-family="monospace" font-size="16" fill="#818cf8" text-anchor="start">Available projects:</text>
+  <text x="40" y="190" font-family="monospace" font-size="16" fill="#e2e2e2" text-anchor="start">  - space-rocket-api</text>
+  <text x="40" y="230" font-family="monospace" font-size="16" fill="#e2e2e2" text-anchor="start">  - galaxy-dashboard</text>
+  <text x="40" y="270" font-family="monospace" font-size="16" fill="#e2e2e2" text-anchor="start">  - alien-detector</text>
+  
+  <text x="40" y="330" font-family="monospace" font-size="16" fill="#6366f1" text-anchor="start">harmony:/ $</text>
+  <text x="40" y="370" font-family="monospace" font-size="16" fill="#e2e2e2" text-anchor="start">harmony start space-rocket-api galaxy-dashboard</text>
+  
+  <text x="40" y="430" font-family="monospace" font-size="16" fill="#818cf8" text-anchor="start">Starting projects:</text>
+  <text x="40" y="470" font-family="monospace" font-size="16" fill="#a78bfa" text-anchor="start">✓ Launching rocket API server on port 3000</text>
+  <text x="40" y="510" font-family="monospace" font-size="16" fill="#a78bfa" text-anchor="start">✓ Starting mission control dashboard on port 8080</text>
+  
+  <text x="40" y="570" font-family="monospace" font-size="16" fill="#6366f1" text-anchor="start">harmony:/ $</text>
+</svg> 
