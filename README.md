@@ -1,3 +1,5 @@
+https://pelhage.github.io/harmony
+
 # Harmony - Local Development Script Runner
 
 A config-driven CLI tool for managing multiple local development projects. This tool allows you to define and run commands for different projects from a single configuration file.
