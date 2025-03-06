@@ -26,7 +26,7 @@ export function Terminal() {
         {isClient ? (
           <div className="relative w-full h-full">
             <Image
-              src="/harmony-demo.gif"
+              src="/harmony/harmony-demo.gif"
               alt="Harmony Terminal Demo"
               fill
               style={{ objectFit: "contain" }}
